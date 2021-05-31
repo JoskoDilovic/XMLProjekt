@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>XML Projekt</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <style>
+	
+		body{
+		margin:0 auto;
+		background-image:url("aaa.jpg");
+		height:1300px;
+		}
+		
+        #funkcija {
+            font:16px Arial;
+            width:500px;
+            text-align:center;
+            overflow:hidden;
+			
+        }
+        #prvi div  {
+            width:auto;
+            text-align:center;
+            margin:1px;
+            padding:2px 5px;
+            letter-spacing:1px;
+			color:black;
+        }
+		
+		
+		.button{
+		padding:100px 0;
+		}
+		
+		
+		p{
+		font:16px Arial;
+		color:black;
+		}
+		
+		
+		
+		
+    </style>
+</head>
+
+<body>
+    <p>Pritisnite gumb za prikaz kolegija</p>
+
+    <input type="button" value="Pritisni!" id="bt"  />
+    <div id="prvi"></div>
+</body>
+
+<script>
+    $(document).ready(function() {
+
+        $('#bt').click(function () {
+            $('#funkcija').empty();    
+
+            $.ajax({
+                type: 'GET',
+                url: 'https://res.cloudinary.com/dudxdxs6l/raw/upload/v1622487406/predmeti_yqfiff',         
+                dataType: 'xml',    
+                success: function(xml) {
+                    $(xml).find('Kolegij').each(function() {
+                        
+  
+                        $('#prvi').append(
+                            '<div>' +
+                                '<div><b>Naziv kolegija: </b>' +
+                                    $(this).find('NazivKolegija').text() + '</div> ' +
+                                '<div><b>Semestar: </b>' +
+                                    $(this).find('Semestar').text() + '</div> ' +
+                                '<div><b>ECTS: </b>' +
+                                    $(this).find('ECTS').text() + '</div> ' +
+								'<div><b>ISVU: </b>' +
+                                    $(this).find('ISVU').text() + '</div> ' +
+								'<div><b>Izvođač: </b>' +
+                                    $(this).find('Izvođač').text() + '</div> ' +
+                            '</div>');
+                    });
+                }
+            });
+        });
+    });
+
+</script>
+</html>

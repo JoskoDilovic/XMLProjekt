@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<!--  Last edited by http://encodedna.com  -->
+<Library>
+	<Kolegij>
+		<code>1</code>
+		<NazivKolegija>Engleski jezik za IT</NazivKolegija>
+		<Semestar>Zimski</Semestar>
+		<ECTS>3</ECTS>
+		<ISVU>156402</ISVU>
+		<Izvođač>dr.sc. Biljana Stojaković ,prof.v.š. u trajnom zvanju</Izvođač>
+   </Kolegij>
+   <Kolegij>
+		<code>2</code>
+		<NazivKolegija>Kineziološka kultura III</NazivKolegija>
+		<Semestar>Zimski</Semestar>
+		<ECTS>1</ECTS>
+		<ISVU>156418</ISVU>
+		<Izvođač>pred. Valter Perinović mag. kineziologije</Izvođač>
+   </Kolegij>
+   <Kolegij>
+		<code>3</code>
+		<NazivKolegija>Napredno elektroničko poslovanje u informatici</NazivKolegija>
+		<Semestar>Zimski</Semestar>
+		<ECTS>4</ECTS>
+		<ISVU>1200117</ISVU>
+		<Izvođač>prof. Marta Alić</Izvođač>
+   </Kolegij>
+   <Kolegij>
+		<code>4</code>
+		<NazivKolegija>Objektno orijentirano programiranje I</NazivKolegija>
+		<Semestar>Zimski</Semestar>
+		<ECTS>5</ECTS>
+		<ISVU>156397</ISVU>
+		<Izvođač>Prof. dr. sc. Miroslav Slamić profesor visoke škole</Izvođač>
+   </Kolegij>
+   <Kolegij>
+		<code>5</code>
+		<NazivKolegija>Operacijski sustavi</NazivKolegija>
+		<Semestar>Zimski</Semestar>
+		<ECTS>5</ECTS>
+		<ISVU>156387</ISVU>
+		<Izvođač>doc.dr.sc. Davor Cafuta</Izvođač>
+   </Kolegij>
+   <Kolegij>
+		<code>6</code>
+		<NazivKolegija>Poslovni engleski jezik za IT</NazivKolegija>
+		<Semestar>Ljetni</Semestar>
+		<ECTS>3</ECTS>
+		<ISVU>156403</ISVU>
+		<Izvođač>dr.sc. Biljana Stojaković ,prof.v.š. u trajnom zvanju</Izvođač>
+   </Kolegij>
+   <Kolegij>
+		<code>7</code>
+		<NazivKolegija>Analiza tabličnih podataka</NazivKolegija>
+		<Semestar>Ljetni</Semestar>
+		<ECTS>3</ECTS>
+		<ISVU>200097</ISVU>
+		<Izvođač>Danijela Pongrac prof.</Izvođač>
+   </Kolegij>
+   <Kolegij>
+		<code>8</code>
+		<NazivKolegija>Baze podataka</NazivKolegija>
+		<Semestar>Ljetni</Semestar>
+		<ECTS>5</ECTS>
+		<ISVU>156406</ISVU>
+		<Izvođač>Tin Kramberger struč. spec. ing. techn. inf., v. pred.</Izvođač>
+   </Kolegij>
+   <Kolegij>
+		<code>9</code>
+		<NazivKolegija>Kineziološka kultura III</NazivKolegija>
+		<Semestar>Zimski</Semestar>
+		<ECTS>1</ECTS>
+		<ISVU>156418</ISVU>
+		<Izvođač>pred. Valter Perinović mag. kineziologije</Izvođač>
+   </Kolegij>
+   <Kolegij>
+		<code>10</code>
+		<NazivKolegija>Napredne tehnike programiranja</NazivKolegija>
+		<Semestar>Ljetni</Semestar>
+		<ECTS>5</ECTS>
+		<ISVU>212836</ISVU>
+		<Izvođač>Željko Kovačević , struč.spec.ing.techn.inf.</Izvođač>
+   </Kolegij>
+   <Kolegij>
+		<code>11</code>
+		<NazivKolegija>Projektno programiranje</NazivKolegija>
+		<Semestar>Ljetni</Semestar>
+		<ECTS>3</ECTS>
+		<ISVU>156422</ISVU>
+		<Izvođač> Mia Čarapina dipl. ing., v. pred.</Izvođač>
+   </Kolegij>
+   <Kolegij>
+		<code>12</code>
+		<NazivKolegija>Uvod u mreže računala</NazivKolegija>
+		<Semestar>Ljetni</Semestar>
+		<ECTS>4</ECTS>
+		<ISVU>156391</ISVU>
+		<Izvođač>dr.sc. Željko Širanović prof.v.š.</Izvođač>
+   </Kolegij>
+   <Kolegij>
+		<code>13</code>
+		<NazivKolegija>XML programiranje</NazivKolegija>
+		<Semestar>Ljetni</Semestar>
+		<ECTS>6</ECTS>
+		<ISVU>156415</ISVU>
+		<Izvođač>dr.sc. Alen Šimec v. predavač</Izvođač>
+   </Kolegij>
+</Library>
